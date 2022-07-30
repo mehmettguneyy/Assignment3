@@ -1,11 +1,22 @@
 main{
+  background-color: antiquewhite;
   padding-left: 1em;
   font-family: sans-serif;
 }
 
 h1{
-  color: #4caf50;
+  color: darkred;
   text-shadow: 2px 2px 5px #81c784;
+}
+h2{
+  color:darkcyan;
+  text-shadow: 2px 2px 5px #81c784;
+}
+
+div{
+  color: darkred;
+  font-size: 1.5em;
+  font-weight: bolder;
 }
 
 a{
@@ -18,8 +29,4 @@ a:hover{
   text-decoration: underline;
 }
 
-span.cardName{
-  font-size: larger;
-  font-weight: bolder;
-  color: #ff9800;
-}
+

@@ -1,6 +1,6 @@
 export class Dice {
 
-  number: number = 1;
+ number: number = 1;
 
   constructor() {
   }

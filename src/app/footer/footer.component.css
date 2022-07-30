@@ -1,5 +1,5 @@
 footer{
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-style: italic;
   font-weight: bolder;
   border-top: #78909c solid;
@@ -8,9 +8,7 @@ footer{
   padding-left: 1em;
   margin-top: 1.5em;
   width: 25em;
-  color: #546e7a;
+  color: coral;
 }
 
-footer .hart{
-  color: #e91e63;
-}
+

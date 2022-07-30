@@ -28,7 +28,10 @@ export class AppComponent {
     this.nextDice3 = this.diceFactory.randomDice;
     this.nextImage = new Image();
     this.preload();
+
   }
+
+
   private static diceImageSrc(num1: number) : string {
     return `assets/images/dice/${num1}.png`;
   }
@@ -40,14 +43,15 @@ export class AppComponent {
     return `assets/images/dice/${num2}.png`;
   }
   private preload2(): void {
-    this.nextImage.src = AppComponent.diceImageSrc2(this.nextDice.number);
+    this.nextImage.src = AppComponent.diceImageSrc2(this.nextDice2.number);
   }
   private static diceImageSrc3(num3: number) : string {
     return `assets/images/dice/${num3}.png`;
   }
   private preload3(): void {
-    this.nextImage.src = AppComponent.diceImageSrc3(this.nextDice.number);
+    this.nextImage.src = AppComponent.diceImageSrc3(this.nextDice3.number);
   }
+
 
   next() : void {
     this.dice.copy(this.nextDice);
@@ -65,7 +69,6 @@ export class AppComponent {
     this.imageSrc3 = AppComponent.diceImageSrc3(this.dice.number);
     this.nextDice3 = this.diceFactory.randomDice;
     this.preload3();
+
   }
-
-
 }

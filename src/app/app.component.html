@@ -1,12 +1,12 @@
 <header>
-  <h1>{{title}}</h1>
+  <h1>{{title}}  --  MEHMET GUNEY --</h1>
 </header>
 <main>
   <h2>Roll the Dice</h2>
   <p> <img [src]="imageSrc" [alt]="dice.number">
    <img [src]="imageSrc2" [alt]="dice.number">
   <img [src]="imageSrc3" [alt]="dice.number"></p>
-  <p> <a (click)="next()">Roll Dice</a></p>
-  <p>Total <span class="diceNumber">{{dice.number}}</span></p>
+  <p> <a (click)="next()">CLICK Roll Dice</a></p>
+  <div>Total <span>{{dice.number+dice.number+dice.number}}</span></div>
 </main>
-<app-footer name="Dice Rolling"></app-footer>
+<app-footer></app-footer>
