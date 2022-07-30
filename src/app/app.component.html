@@ -3,7 +3,10 @@
 </header>
 <main>
   <h2>Roll the Dice</h2>
-  <p><img [src]="imageSrc" [alt]="dice.number"></p>
-  <p><a (click)="next()">Roll Dice</a></p>
+  <p> <img [src]="imageSrc" [alt]="dice.number">
+   <img [src]="imageSrc2" [alt]="dice.number">
+  <img [src]="imageSrc3" [alt]="dice.number"></p>
+  <p> <a (click)="next()">Roll Dice</a></p>
+  <p>Total <span class="diceNumber">{{dice.number}}</span></p>
 </main>
 <app-footer name="Dice Rolling"></app-footer>

@@ -1,5 +1,6 @@
 import {Dice} from "./dice";
 
+
 export class DiceFactory{
 
 
@@ -10,9 +11,13 @@ export class DiceFactory{
   private static makeDice(index: number): Dice {
     const dice = new Dice();
 
-    dice.number = index ;
 
-    return dice;
+    dice.number = index;
+
+        return dice;
+
   }
+
+
 
 }
